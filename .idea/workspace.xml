@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3dd825d-d638-4fce-b22b-f5f4eabfde44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/summer-2019-europa-cucumber-seleniım.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationStepDefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/NavigationMenu.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/CalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/ContactInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/ContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationMenuStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/NavigationMenu.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +63,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\win8\IdeaProjects\summer-2019-europa-cucumber-seleniım\src\test\java\com\vytrack\pages" />
+      <recent name="C:\Users\win8\IdeaProjects\summer-2019-europa-cucumber-seleniım\src\test\java\com\vytrack\utilities" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -66,53 +88,6 @@
       <option name="PACKAGE_NAME" value="com.vytrack.runners" />
       <option name="MAIN_CLASS_NAME" value="com.vytrack.runners.CukesRunner" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="summer-2019-europa-cucumber-seleniıum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="summer-2019-europa-cucumber-seleniıum" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,33 +121,61 @@
       <option name="presentableId" value="Default" />
       <updated>1579112062750</updated>
     </task>
+    <task id="LOCAL-00001" summary="day1-2">
+      <created>1579211483882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579211483882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day1-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="175" y="0" key="#Project_Structure" timestamp="1579112117505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Project_Structure/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579112117505" />
-    <state width="1310" height="181" key="GridCell.Tab.0.bottom" timestamp="1579210581389">
+    <state x="372" y="149" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579460936627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="181" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579210581389" />
-    <state width="1310" height="181" key="GridCell.Tab.0.center" timestamp="1579210581389">
+    <state x="372" y="149" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579460936627" />
+    <state x="102" y="0" key="CommitChangelistDialog2" timestamp="1579211482082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="181" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579210581389" />
-    <state width="1310" height="181" key="GridCell.Tab.0.left" timestamp="1579210581389">
+    <state x="102" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579211482082" />
+    <state width="1310" height="194" key="GridCell.Tab.0.bottom" timestamp="1579465015732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="181" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579210581389" />
-    <state width="1310" height="181" key="GridCell.Tab.0.right" timestamp="1579210581389">
+    <state width="1310" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579465015732" />
+    <state width="1310" height="194" key="GridCell.Tab.0.center" timestamp="1579465015732">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="181" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579210581389" />
+    <state width="1310" height="194" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579465015732" />
+    <state width="1310" height="194" key="GridCell.Tab.0.left" timestamp="1579465015732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="194" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579465015732" />
+    <state width="1310" height="194" key="GridCell.Tab.0.right" timestamp="1579465015732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="194" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579465015732" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1579120094230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579120094230" />
+    <state x="175" y="32" key="Vcs.Push.Dialog.v2" timestamp="1579211486094">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579211486094" />
+    <state x="314" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1579446776759">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="314" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579446776759" />
     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1579120069215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

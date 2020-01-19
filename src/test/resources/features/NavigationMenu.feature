@@ -1,12 +1,20 @@
-@Navigate
-Feature: Logged in the sales manager should be able to navigate to pages using the top menu.
+@navigate
+Feature: Navigation Menu
 
-  Scenario:
-    Given Logged in sales manager
-    When the user is in the vehicles page
-    Then the user should see correct page url
+  Scenario: Fleet --> Vehicles
+    Given the user is on the login page
+    And the user enter the sales manager information
+    When the user navigates to Fleet, Vehicles
+    Then the url should be expected Fleet url
 
-  Scenario:
-    Given Logged in sales manager
-    When the user is in the campaings page
-    Then the user should see campaigns page url
+  Scenario: Sales managers - Marketing—> Campaigns navigation
+    Given the user is on the login page
+    And the user enter the sales manager information
+    When  the user navigates Marketing Campaigns
+    Then the url should be expected Campaigns url
+
+  Scenario: Activities—> Calendar Events
+    Given the user is on the login page
+    And the user enter the sales manager information
+    When the user navigates Activities - Calendar events
+    Then the url should be expected Activities url
