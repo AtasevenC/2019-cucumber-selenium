@@ -52,7 +52,28 @@ public class LoginStepDefs {
         loginPage.login(username, password);
 
     }
+    @Given("the user logged in as a {string}")
+    public void the_user_logged_in_as_a(String user) {
+        String url = ConfigurationReader.get("url");
+        Driver.get().get(url);
+        String username = null;
+        String password = null;
 
+
+        if(user.equals("driver")){
+            username = ConfigurationReader.get("driver_username");
+            password = ConfigurationReader.get("driver_password");
+        }else if(user.equals("sales manager")){
+            username = ConfigurationReader.get("sales_manager_username");
+            password = ConfigurationReader.get("sales_manager_password");
+        }else if(user.equals("store manager")){
+            username = ConfigurationReader.get("store_manager_username");
+            password = ConfigurationReader.get("store_manager_password");
+        }
+
+        LoginPage loginPage = new LoginPage();
+        loginPage.login(username,password);
+}
 
 
 
