@@ -52,6 +52,13 @@ public class LoginStepDefs {
         loginPage.login(username, password);
 
     }
+
+    @Then("the title should contains {string}")
+    public void the_title_should_contains(String expectedTitle) {
+        BrowserUtils.waitFor(4);
+        System.out.println("expectedTitle = " + expectedTitle);
+        Assert.assertTrue("Actual title:" + Driver.get().getTitle(), Driver.get().getTitle().contains(expectedTitle));
+    }
     @Given("the user logged in as a {string}")
     public void the_user_logged_in_as_a(String user) {
         String url = ConfigurationReader.get("url");

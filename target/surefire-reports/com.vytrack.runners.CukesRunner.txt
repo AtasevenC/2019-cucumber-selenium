@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: com.vytrack.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.019 s - in com.vytrack.runners.CukesRunner
+Tests run: 18, Failures: 12, Errors: 1, Skipped: 0, Time elapsed: 465.908 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Login with different users sales manager(Account types)  Time elapsed: 26.651 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Car - Entities - System - Car - Entities - System
+
+Login with different users sales manager(Account types)  Time elapsed: 24.379 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Vehicles Model - Entities - System - Car - Entities - System
+
+Login with different users sales manager(Account types)  Time elapsed: 34.206 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Accounts - Customers
+
+Login with different users sales manager(Account types)  Time elapsed: 25.202 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Contacts - Customers
+
+Login with different users sales manager(Account types)  Time elapsed: 26.519 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Calendar Events - Activities
+
+Login with different users sales manager(Account types)  Time elapsed: 26.074 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Jobs - System
+
+Login with different users store manager(Account types)  Time elapsed: 29.559 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Car - Entities - System - Car - Entities - System
+
+Login with different users store manager(Account types)  Time elapsed: 27.284 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Vehicles Model - Entities - System - Car - Entities - System
+
+Login with different users store manager(Account types)  Time elapsed: 27.472 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Accounts' and contains(@class, 'title title-level-2')]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.43.205', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\win8\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 981430aa694a6776e649d73342376f1d
+*** Element info: {Using=xpath, value=//span[normalize-space()='Accounts' and contains(@class, 'title title-level-2')]}
+
+Login with different users store manager(Account types)  Time elapsed: 28.336 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Contacts - Customers
+
+Login with different users store manager(Account types)  Time elapsed: 24.735 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Calendar Events - Activities
+
+Login with different users store manager(Account types)  Time elapsed: 25.923 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Jobs - System
+
+Login with different users store manager(Account types)  Time elapsed: 27.509 s  <<< FAILURE!
+java.lang.AssertionError: Actual title:Dashboard
+

@@ -3,6 +3,7 @@ package com.vytrack.step_definitions;
 import com.vytrack.pages.ContactsPage;
 import com.vytrack.pages.DashboardPage;
 import com.vytrack.pages.LoginPage;
+import com.vytrack.utilities.BrowserUtils;
 import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -53,6 +54,7 @@ public class NavigationMenuStepDefs {
 
     @When("the user navigates {string} {string}")
     public void the_user_navigates(String tab, String module) {
+        BrowserUtils.waitFor(2);
        new DashboardPage().navigateToModule(tab,module);
 
     }
@@ -66,6 +68,7 @@ public class NavigationMenuStepDefs {
         Assert.assertEquals(actualNumber,ePageNumber);
         System.out.println(actualNumber);
     }
+
 
 
 
