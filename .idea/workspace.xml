@@ -1,27 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3dd825d-d638-4fce-b22b-f5f4eabfde44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
+    <list default="true" id="d3dd825d-d638-4fce-b22b-f5f4eabfde44" name="Default Changelist" comment="day5">
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-1804922893.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_-981153474.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_1066298371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1321075111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_4135879342.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2_1764534172.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2149507997.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4089311534.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-html-reports/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Account types.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Contacts Page.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Account types.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Contacts Page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Users should be able to login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vytrack.runners.FailedTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Users should be able to login.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.vytrack.runners.FailedTestRunner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/FailedTestRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/ContactStepDefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/AccountTypes.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1764534172.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_1_1764534172.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1789618279.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1789618279.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2147548349.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2147548349.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2435423033.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_2435423033.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_3661060117.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_3661060117.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4082898728.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_4082898728.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_771991054.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_771991054.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/summer-2019-europe-cucumber-selenium-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/summer-2019-europe-cucumber-selenium-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vytrack.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.vytrack.runners.CukesRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.vytrack.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.vytrack.runners.CukesRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/summer-2019-europa-cucumber-seleniıum.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/LoginStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationMenuStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/step_definitions/NavigationMenuStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/utilities/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Contacts.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
     </list>
@@ -38,6 +74,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -56,7 +97,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TryCloud-Project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,7 +109,7 @@
       <recent name="C:\Users\win8\IdeaProjects\summer-2019-europa-cucumber-seleniım\src\test\java\com\vytrack\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FailedTestRunner">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="summer-2019-europa-cucumber-seleniıum" />
       <extension name="coverage">
@@ -103,6 +144,9 @@
       <list>
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -150,14 +194,22 @@
       <option name="project" value="LOCAL" />
       <updated>1579642866643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day5">
+      <created>1579968672269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579968672269</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day1-2" />
     <MESSAGE value="day3" />
     <MESSAGE value="day4" />
-    <option name="LAST_COMMIT_MESSAGE" value="day4" />
+    <MESSAGE value="day5" />
+    <option name="LAST_COMMIT_MESSAGE" value="day5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="172" y="0" key="#Notifications" timestamp="1579630194824">
@@ -176,57 +228,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579946905590" />
-    <state x="102" y="0" key="CommitChangelistDialog2" timestamp="1579642861934">
+    <state x="102" y="0" key="CommitChangelistDialog2" timestamp="1580067540773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="102" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579465081328" />
+    <state x="-1824" y="-312" key="CommitChangelistDialog2/0.0.1366.728/-1920.-312.1280.693@-1920.-312.1280.693" timestamp="1579982690155" />
+    <state x="102" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580067540773" />
     <state x="102" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579642861934" />
-    <state width="1310" height="414" key="GridCell.Tab.0.bottom" timestamp="1579967752251">
+    <state x="-1547" y="-260" key="FileChooserDialogImpl" timestamp="1579981651175">
+      <screen x="-1920" y="-312" width="1280" height="693" />
+    </state>
+    <state x="-1547" y="-260" key="FileChooserDialogImpl/0.0.1366.728/-1920.-312.1280.693@-1920.-312.1280.693" timestamp="1579981651175" />
+    <state width="1310" height="227" key="GridCell.Tab.0.bottom" timestamp="1580066893497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="414" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579967752251" />
+    <state width="1310" height="227" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580066893497" />
     <state width="1310" height="322" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579647493593" />
     <state width="1310" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579467680132" />
-    <state width="1310" height="414" key="GridCell.Tab.0.center" timestamp="1579967752250">
+    <state width="1310" height="227" key="GridCell.Tab.0.center" timestamp="1580066893497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="414" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579967752250" />
+    <state width="1310" height="227" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580066893497" />
     <state width="1310" height="322" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579647493593" />
     <state width="1310" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579467680132" />
-    <state width="1310" height="414" key="GridCell.Tab.0.left" timestamp="1579967752250">
+    <state width="1310" height="227" key="GridCell.Tab.0.left" timestamp="1580066893496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="414" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579967752250" />
+    <state width="1310" height="227" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580066893496" />
     <state width="1310" height="322" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579647493593" />
     <state width="1310" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579467680132" />
-    <state width="1310" height="414" key="GridCell.Tab.0.right" timestamp="1579967752251">
+    <state width="1310" height="227" key="GridCell.Tab.0.right" timestamp="1580066893497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="414" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579967752251" />
+    <state width="1310" height="227" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580066893497" />
     <state width="1310" height="322" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579647493593" />
     <state width="1310" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579467680132" />
     <state x="75" y="0" key="SettingsEditor" timestamp="1579120094230">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579120094230" />
-    <state x="175" y="32" key="Vcs.Push.Dialog.v2" timestamp="1579642870683">
+    <state x="175" y="32" key="Vcs.Push.Dialog.v2" timestamp="1579968674981">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579465088017" />
+    <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579968674981" />
     <state x="175" y="32" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579642870683" />
-    <state x="314" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1579947254643">
+    <state x="314" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1580051579190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="314" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579947254643" />
+    <state x="314" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580051579190" />
     <state x="314" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.-312.1280.695@0.0.1366.728" timestamp="1579626500960" />
     <state x="0" y="0" width="731" height="728" key="find.popup" timestamp="1579948285359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="731" height="728" key="find.popup/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579948285359" />
-    <state x="0" y="0" key="new project wizard" timestamp="1579947375395">
+    <state x="0" y="0" key="new project wizard" timestamp="1580052156347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1579947375395" />
+    <state x="0" y="0" key="new project wizard/0.0.1366.728/-1920.-312.1280.693@0.0.1366.728" timestamp="1580052156347" />
     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1579120069215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

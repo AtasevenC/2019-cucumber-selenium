@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.vytrack.runners.CukesRunner
+Test set: Account types
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.511 s - in com.vytrack.runners.CukesRunner
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 122.799 s - in Account types

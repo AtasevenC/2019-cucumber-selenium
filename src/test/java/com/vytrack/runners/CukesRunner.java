@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = "com/vytrack/step_definitions/",
         dryRun = false,
         // tags="@driver and @VYT-123" // {"@driver", "@VYT-123"} old syntax
-       tags= "@wip"
+       tags= "@smoke"
 )
 
 public class CukesRunner {
