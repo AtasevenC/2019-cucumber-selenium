@@ -25,7 +25,7 @@ public class Driver {
             String browser = ConfigurationReader.get("browser");
             switch (browser) {
                 case "chrome":
-                    WebDriverManager.chromegidriver().setup();
+                    WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
                 case "chrome-headless":
