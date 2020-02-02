@@ -1,6 +1,6 @@
 
 Feature: Account types
-
+  @wip
   Scenario: Driver user
     Given the user logged in as a "driver"
     When the user navigates "Activities" "Calendar Events"
@@ -15,7 +15,7 @@ Feature: Account types
     Given  the user logged in as a "store manager"
     When the user navigates "Marketing" "Campaigns"
     Then the title should contains "Campaigns - Marketing"
-@wip
+
   Scenario Outline: Login with different users <usertypes>
     Given the user logged in as a "<usertypes>"
     When the user navigates "<tab>" "<module>"
